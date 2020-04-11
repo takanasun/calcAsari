@@ -48,8 +48,7 @@
     let tempValue = 0;
     let mark = "";
     const inputValue = data => {
-      if (currentValue.length <= 8) { // 入力できる最大文字数
-        flag = 0;
+      if (currentValue.length <= 8) { 
         currentValue += data;
         result.value = currentValue;
       }
